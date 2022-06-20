@@ -1,6 +1,0 @@
-- [ ]  Alert user - sender.login
-- [ ]  Alert on-call PR reviewer
-- [ ]  Alert Pipedream team on publish
-- [ ]  Alert Community on publish (with links and pwetty stuff) - compare
-- [ ]  github handle of whoever merged the pr
-- [ ]  link to the pr

@@ -1,0 +1,8 @@
+events.json
+
+PR - html_url
+Issue - issue_url
+Assignee? - assignee
+Assignees? - assignees
+User - events.merged_by.login
+Reviewer - requested_reviewers

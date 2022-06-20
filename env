@@ -1,0 +1,12 @@
+GITHUB_SHA=380f6de87923aff440ccbc92e9b847039c710aab
+GITHUB_REF=main
+GITHUB_REF_PROTECTED=false
+GITHUB_EVENT_PATH=/home/runner/work/_temp/_github_workflow/event.json
+GITHUB_EVENT_NAME=pull_request
+GITHUB_ACTOR=andrewjschuang
+GITHUB_REF_NAME=main
+GITHUB_JOB=publish-components
+GITHUB_REPOSITORY=andrewjschuang/gh-actions-test
+GITHUB_BASE_REF=main
+GITHUB_HEAD_REF=branch
+GITHUB_WORKFLOW=.github/workflows/publish-components.yaml
