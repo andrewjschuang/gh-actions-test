@@ -14,5 +14,6 @@ jobs:
         id: publish
         env:
           PUSH: ${{ github.event.push }}
+        shell: bash {0} # don't fast fail
         run: |
             echo $PUSH
