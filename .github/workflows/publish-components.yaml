@@ -13,6 +13,6 @@ jobs:
       - name: Publish and add to registry components/*.*js (that aren't .app.js files)
         id: publish
         env:
-          PUSH: ${{ github.event }}
+          PUSH: ${{ github.event.push }}
         run: |
             echo $PUSH
