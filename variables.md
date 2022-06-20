@@ -1,0 +1,6 @@
+- [ ]  Alert user - events.merged_by.login
+- [ ]  Alert on-call PR reviewer - events.requested_reviewers
+- [ ]  Alert Pipedream team on publish
+- [ ]  Alert Community on publish (with links and pwetty stuff)
+- [ ]  github handle of whoever merged the pr
+- [ ]  link to the pr - events.html_url, events.issue_url
