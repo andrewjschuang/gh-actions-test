@@ -1,19 +1,19 @@
-on: push
+on:
+  pull_request:
+    types:
+      - closed
 
 jobs:
   publish-components:
+    if: github.event.pull_request.merged == true
     name: Publish Components to Pipedream Registry
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3.0.2
-      - uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 7.0.0
       - name: Publish and add to registry components/*.*js (that aren't .app.js files)
         id: publish
-        env:
-          PUSH: ${{ github.event.push }}
         shell: bash {0} # don't fast fail
         run: |
+          env
           cat $GITHUB_EVENT_PATH
